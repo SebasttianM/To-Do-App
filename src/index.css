@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#banner {
+    background-image: url(images/bg-desktop-light.jpg);
+    width: 100vw;
+    height: 46vh;
+}
+
+#tasklist{
+    background-color: hsl(0, 0%, 98%);
+}
+
+#taskcards{
+    background-color: white;
+}
+
+#card{
+    
+}

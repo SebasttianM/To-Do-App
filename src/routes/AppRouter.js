@@ -8,6 +8,7 @@ const AppRouter = () => {
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<Banner />} />
+            
         </Routes>
     </BrowserRouter>
   )

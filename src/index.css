@@ -11,6 +11,7 @@
 body{
     width: 100vw;
     font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #banner {
@@ -23,11 +24,23 @@ body{
     background-size: cover;
     color: white;
 }
+#bannerdark {
+    background-image: url(images/bg-desktop-dark.jpg);
+    width: 100vw;
+    height: 39vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    background-size: cover;
+    color: white;
+}
 
 #tasklist {
     background-color: hsl(0, 0%, 98%);
+    
 }
 
 #taskcards {
     background-color: white;
+
 }

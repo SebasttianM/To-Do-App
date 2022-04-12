@@ -1,22 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+
+body{
+    width: 100vw;
+    font-size: 18px;
+}
 
 #banner {
     background-image: url(images/bg-desktop-light.jpg);
     width: 100vw;
-    height: 46vh;
+    height: 39vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    background-size: cover;
+    color: white;
 }
 
-#tasklist{
+#tasklist {
     background-color: hsl(0, 0%, 98%);
 }
 
-#taskcards{
+#taskcards {
     background-color: white;
-}
-
-#card{
-    
 }

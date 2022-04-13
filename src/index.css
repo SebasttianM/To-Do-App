@@ -1,24 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-
-body{
+body {
     width: 100vw;
     font-size: 18px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 #banner {
     background-image: url(images/bg-desktop-light.jpg);
     width: 100vw;
     height: 39vh;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     background-repeat: no-repeat;
     font-weight: 700;
     background-size: cover;
@@ -28,19 +27,56 @@ body{
     background-image: url(images/bg-desktop-dark.jpg);
     width: 100vw;
     height: 39vh;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     background-repeat: no-repeat;
     font-weight: 700;
     background-size: cover;
     color: white;
 }
 
+#task {
+    color: hsl(235, 24%, 19%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+#darktask {
+    background-color: hsl(235, 24%, 19%);
+    color: hsl(234, 39%, 85%);
+}
+
 #tasklist {
     background-color: hsl(0, 0%, 98%);
-    
+    height: 100vh;
+}
+
+#darktasklist {
+    background-color: hsl(235, 21%, 11%);
+    height: 100vh;
 }
 
 #taskcards {
     background-color: white;
+    -webkit-box-shadow: 2px 0px 15px 3px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 2px 0px 15px 3px rgba(0, 0, 0, 0.52);
+    box-shadow: 2px 0px 15px 3px rgba(0, 0, 0, 0.52);
+}
 
+#darktaskcards {
+    background-color: hsl(235, 24%, 19%);
+    color: hsl(234, 39%, 85%);
+}
+
+#label {
+    color: hsl(235, 19%, 35%);
+}
+
+#darklabel {
+    color: hsl(234, 39%, 85%);
+}
+
+#footer :hover {
+    color: rgba(14, 48, 217, 0.846);
+}
+#darkfooter :hover {
+    color: rgba(63, 97, 247, 0.928);
 }

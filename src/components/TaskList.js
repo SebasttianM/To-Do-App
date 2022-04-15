@@ -60,7 +60,7 @@ const TaskList = ({darkmode, setDarkmode}) => {
                 ))}
                
                 <div id={darkmode ?"darkfooter" :"footer"} className=" w-full mx-auto rounded-b-lg h-10 text-gray-400  cursor-pointer flex align-middle p-2 justify-between">
-                    <p>5 items left</p>
+                    <p>{todo.length} items left</p>
                     <p>All</p>
                     <p>Active</p>
                     <p>Completed</p>

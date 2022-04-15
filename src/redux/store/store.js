@@ -3,7 +3,7 @@ import { TodoReducer } from "../reducers/TodoReducer"
 
 const reducers= combineReducers({
     todo: TodoReducer
-
+    
 })
 
 export const store = createStore(

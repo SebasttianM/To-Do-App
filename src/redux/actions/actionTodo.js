@@ -9,6 +9,13 @@ export const Add=(todo)=>{
         payload: todo,
     }
 }
+export const AddCompleted=(completed)=>{
+    console.log(completed)
+    return{
+        type: typesTodo.addCompleted,
+        payload: completed,
+    }
+}
 
 //...............List Todo..................//
 
@@ -30,10 +37,24 @@ export const Edit =(todoEdited)=>{
 
 //..............Delete Todo...............//
 
-export const Delete = (done)=>{
+export const Delete = (id)=>{
     return{
         type: typesTodo.delete,
-        payload: done,
+        payload: id,
+    }
+}
+export const DeleteCompleted = (id)=>{
+    return{
+        type: typesTodo.deleteCompleted,
+        payload: id,
     }
 
+}
+
+//................Clear Completed.............//
+
+export const clearCompleted= ()=>{
+    return{
+        type:typesTodo.clearCompleted,
+    }
 }

@@ -3,5 +3,8 @@ export const typesTodo={
     delete: 'delete',
     edit: 'edit',
     list: 'list',
-    
+    addCompleted:'addCompleted',
+    deleteCompleted:'deleteCompleted',
+    clearCompleted:'clearCompleted',
 }
+
